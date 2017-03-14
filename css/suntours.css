@@ -1,0 +1,98 @@
+body{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+#main{
+    margin-top:12%;
+    height: 50%;
+    width: 80.8%;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    color: floralwhite;
+    background-color:deepskyblue;
+    padding-top: 1%;
+    
+}
+.logo{
+    position: absolute;
+    margin-left:10%;
+    margin-top: 3%;
+    border-radius: 5%; 
+}
+nav{
+    margin-top: 2%;
+    height: auto;
+    width: 80.8%;
+    position: fixed;
+    background-color: deepskyblue;
+}
+nav ul{
+    margin-left: 21%;
+    text-align: center;
+}
+nav ul li{
+    height: auto;
+    float: left;
+    display: inline-block;
+    font-family: sans-serif;
+    margin-bottom: 10%;
+    margin-left: 1%;
+
+}
+nav ul li a{
+    margin-bottom: 10%;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: deepskyblue;
+    border-radius: 5%;
+    border: 0.5px solid grey;
+    
+}
+nav ul li a:hover,
+nav ul li a:focus
+{
+    background-color: red;
+    
+}
+footer{
+    margin-top: 45%;
+    position: absolute;
+    text-align: center;
+    margin-left: 23%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.slideshow{
+    margin-left:30%;
+    margin-top: 1%;
+}
+#txt{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 1px solid white;
+    width: 20%;
+    margin-left: 40%;
+}
+#background{
+    position:absolute;
+    width: 80%;
+    height: auto;
+    border-radius: 1%;
+}
+.formulier{
+    width: 60%;
+    border: 1px solid grey;
+    border-radius: 5%;
+}
+fieldset{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 52.7%;
+    margin-left: 23.2%;
+}
