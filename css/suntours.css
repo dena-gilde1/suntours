@@ -5,15 +5,16 @@ body{
 }
 #main{
     margin-top:12.3%;
-    height: 50%;
+    height: auto;
     width: 80.8%;
     position: absolute;
-    text-align: center;
     font-family: sans-serif;
     color: floralwhite;
     background-color:deepskyblue;
     padding-top: 1%;
-    
+    padding-bottom: 2%;
+    border: 1px solid black;
+    margin-bottom: 2%;
 }
 .logo{
     position: absolute;
@@ -27,6 +28,7 @@ nav{
     width: 80.8%;
     position: fixed;
     background-color: deepskyblue;
+    border: 1px solid black;
 }
 nav ul{
     margin-left: 21%;
@@ -60,12 +62,13 @@ nav ul li a:focus
     
 }
 footer{
-    margin-top: 45%;
-    position: absolute;
-    text-align: center;
+    margin-bottom: 0%;
     margin-left: 23%;
+    position:absolute;
+    text-align: center;
     font-family: sans-serif;
     font-size: 15px;
+    display:block;
 }
 .slideshow{
     margin-left:30%;
@@ -95,4 +98,23 @@ fieldset{
     border-radius: 5px;
     width: 52.7%;
     margin-left: 23.2%;
+}
+#submit{
+    width: 10%;
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+#review{
+    margin-left: 11%;
+    width: 30%;
+    
+}
+#index{
+    display: inline-block;
+    margin-left: 41%;
 }

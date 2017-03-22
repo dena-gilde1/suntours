@@ -28,6 +28,37 @@
        <h2>welcome to the the flight ticket page</h2>
        <p>here you can buy plane tickets for your vacation</p>
         <img src="img/vlieg1.jpg" alt="">
+                <form id="formulier" name="formulier" action="mailto:dennis.vossen@student.gildeopleidingen.nl" method="post">
+            <fieldset>
+                <legend>book flight tickets</legend>
+                <input required type="text" id="text"
+                 name="name" placeholder="Name"/><br>
+                 <input required type="email" id="email" name="email" placeholder="E-mail"/><br>
+                 <input required type="text" id="mobiel" name="mobiel" placeholder="cellphone"/><br>
+                 <input required type="text" placeholder="resident of" name="woonplaats" id="woonplaats" list="steden"/><br>
+                 <input type="text" placeholder="flight location" name="flight locations" id="tck" list="lct">
+                 <datalist id="steden">
+                     <option value="Amsterdam"></option>
+                     <option value="Rotterdam"></option>
+                     <option value="Utrecht"></option>
+                     <option value="Antwerpen" ></option>
+                     <option value="Brussel"></option>
+                     <option value="New York"></option>
+                     <option value="Chicago"></option>
+                 </datalist>
+                 <datalist id="lct">
+                     <option value="Dubai"></option>
+                     <option value="New Zealand"></option>
+                     <option value="Amsterdam"></option>
+                     <option value="Brussel"></option>
+                     <option value="Washington"></option>
+                 </datalist>
+                 <br>
+                 <input required type="text" id="password" name="password" placeholder="Password">
+                 <br>
+                 <button type="submit">submit</button>
+            </fieldset>
+        </form>
     </div>
     <form id="vlgtkt"
     action="mailto:dennis.vossen@student.gildeopleidingen.nl"></form>
