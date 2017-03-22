@@ -60,9 +60,9 @@ nav ul li a:focus
     
 }
 footer{
-    margin-bottom: 0%;
+    margin-bottom: inital;
     margin-left: 23%;
-    position:absolute;
+    position:relative;
     text-align: center;
     font-family: sans-serif;
     font-size: 15px;
