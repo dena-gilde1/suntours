@@ -22,27 +22,48 @@
 			</ul>
 		</nav>
     <div id="main">
-        <article id="vliegt">
+        <article id="vlieg">
        <h2>welcome to the the flight ticket page</h2>
        <p>here you can buy plane tickets for your vacation</p>
         <img src="img/vlieg1.jpg" alt="">
         </article>
-    <table id="vliegt">
-        <tr><td>location</td><td>price</td></tr>
-        <tr>
-            <td>Kreta</td>
-            <td>$200</td>
-        </tr>
-        <tr>
-            <td>Amsterdam</td>
-            <td>$80</td>
-        </tr>
-        <tr>
-            <td>California</td>
-            <td>$250</td>
-        </tr>
-    </table>
+                <form id="formulier" name="formulier" action="mailto:dennis.vossen@student.gildeopleidingen.nl" method="post">
+            <fieldset>
+                <legend>book flight tickets</legend>
+                <input required type="text" id="text"
+                 name="name" placeholder="Name"/><br>
+                 <input type="text" placeholder="flight location" name="flight locations" id="lct" list="lct">
+
+                 <datalist id="lct">
+                     <option value="Dubai"></option>
+                     <option value="New Zealand"></option>
+                     <option value="Amsterdam"></option>
+                     <option value="Brussel"></option>
+                     <option value="Washington"></option>
+                     <option value="Tokio"></option>
+                     <option value="Kreta"></option>
+                     <option value="Antwerpen"></option>
+                     <option value="Luxemburg"></option>
+                     <option value="Heel"></option>
+                 </datalist>
+                <input type="radio" name="retour" value="retour">retour
+                <input type="radio" name="oneway" value="oneway">oneway
+                 <br>
+                 <input required type="text" id="password" name="password" placeholder="Password">
+                 <br>
+                 <input type="date"><br>
+                 <input type="number" id="volwassenen" name="volwassenen"
+                 placeholder="how many adults"><br>
+                                  <input type="number" id="kinderen" name="kinderen"
+                 placeholder="how many children">
+                <button type="submit">submit</button><br>
+            </fieldset>
+        </form>
     </div>
+    <form id="vlgtkt"
+    action="mailto:dennis.vossen@student.gildeopleidingen.nl"></form>
+    
+
     <footer>
 
 			<p>copyright &copy; 2017<i> ontworpen door: Alvana Lamslag en Dennis Vossen</i> allerechten voorbehouden.</p>
