@@ -13,6 +13,7 @@ body{
     padding-top: 1%;
     padding-bottom: 2%;
     border: 1px solid black;
+    border-radius: 0.2%;
     margin-bottom: 2%;
     text-align: center;
 }
@@ -48,7 +49,7 @@ nav ul li a:hover{
     background-color: red;
 }
 footer{
-    margin-bottom: inital;
+    margin-bottom: auto;
     margin-left: 23%;
     position:relative;
     text-align: center;
@@ -139,4 +140,8 @@ th, td{
 }
 #vlieg{
     text-align: center;
+}
+#gasten{
+    text-align: center;
+    margin-left: 32%;
 }
